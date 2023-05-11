@@ -1,6 +1,6 @@
 function CmdLogg(Name)
 arguments
-        Name char = 'log'
+        Name char{mustBeText} = 'log'
 
 end
 
